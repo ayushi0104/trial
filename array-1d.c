@@ -13,9 +13,9 @@ int main() {
   return 0;
 }
 
-void fill(int* parr,int n) {     //void fill(int parr[],int n)
+void fill(int* parr,int n) {
   for(int i=0;i<n;i++)
-    parr[i]=i*10+1;  //scanf("%d",&arr[i]);
+    parr[i]=i*10+1;
 }
 
 void sumarr(const int* parr, int n) {
